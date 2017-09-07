@@ -53,7 +53,6 @@ main{
    list-style: none;
    height: 100px;
    width: 100px;
-
    margin: 10px;
  }
  main  ul  {
@@ -64,8 +63,8 @@ main{
 
  .hidden{
    background-image: url('../images/back_of_card.jpeg');
-   max-height: 100px;
-   max-width: 100px;
+   height: 100px;
+   width: 100px;
    background-size: cover;
    background-position: center center;
    background-size: contain;
@@ -73,6 +72,12 @@ main{
 
     perspective: 300px;
     animation: animate-y 1s linear;
+ }
+
+ .hidden:hover{
+   height: 102px;
+   width: 102px;
+   margin: 9px;
  }
 
  @keyframes animate-y {
