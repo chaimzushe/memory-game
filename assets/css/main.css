@@ -57,7 +57,7 @@ main{
   flex-wrap: wrap;
  }
 
- #hidden_card{
+ .hidden{
    background-color: red;
    perspective: 300px;
    animation: animate-y 1s linear;
@@ -71,28 +71,28 @@ main{
 
 
 
- #card1{
+ .card1{
    background-image: url('../images/apple.jpg');
    max-height: 200px;
    max-width: 200px;
    background-size: cover;
    background-position: center center;
  }
- #card2{
+ .card2{
    background-image: url('../images/pineapple.jpg');
    max-height: 200px;
    max-width: 200px;
    background-size: cover;
    background-position: center center;
  }
- #card3{
+ .card3{
    background-image: url('../images/pair.jpg');
    max-height: 200px;
    max-width: 200px;
    background-size: cover;
    background-position: center center;
  }
- #card4{
+ .card4{
    background-image: url('../images/blueberry.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -100,7 +100,7 @@ main{
    background-position: center center;
 
  }
- #card5{
+ .card5{
    background-image: url('../images/strawberry.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -108,7 +108,7 @@ main{
    background-position: center center;
 
  }
- #card6{
+ .card6{
    background-image: url('../images/pepper.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -116,7 +116,7 @@ main{
    background-position: center center;
 
  }
- #card7{
+ .card7{
    background-image: url('../images/wallnuts.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -124,7 +124,7 @@ main{
    background-position: center center;
 
  }
- #card8{
+ .card8{
    background-image: url('../images/carrots.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -132,7 +132,7 @@ main{
    background-position: center center;
 
  }
- #card9{
+ .card9{
    background-image: url('../images/lemons.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -140,7 +140,7 @@ main{
    background-position: center center;
 
  }
- #card10{
+ .card10{
    background-image: url('../images/cherrys.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -148,7 +148,7 @@ main{
    background-position: center center;
 
  }
- #card11{
+ .card11{
    background-image: url('../images/cucs.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -156,7 +156,8 @@ main{
    background-position: center center;
 
  }
- #card12{
+ 
+ .card12{
    background-image: url('../images/watermelon.jpg');
    max-height: 200px;
    max-width: 200px;
@@ -164,14 +165,14 @@ main{
    background-position: center center;
 
  }
- #card13{
+ .card13{
    background-image: url('../images/green_veggy.jpg');
    max-height: 200px;
    max-width: 200px;
    background-size: cover;
    background-position: center center;
  }
- #card14{
+ .card14{
    background-image: url('../images/corn.jpg');
    max-height: 200px;
    max-width: 200px;
