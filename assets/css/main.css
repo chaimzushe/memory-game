@@ -5,6 +5,8 @@ body{
   justify-content: center;
   align-items: center;
   background-image: url('../images/mahogany.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
   background-size: cover;
   background-position: center center;
 }
@@ -17,4 +19,64 @@ main{
   flex-direction: column;
   height: 100%;
   width: 100%;
+}
+
+
+#modal {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4)
+}
+
+#modal-content {
+  font-size: 39px;
+}
+
+.modal-box {
+  opacity: .5;
+  font-size: 18px;
+  font-family: cursive;
+  width: 300px;
+  height: 300px;
+  margin: 22% auto;
+  background-color: #c9fcde;
+  color: #9A3300;
+  border-radius: 20px;
+  text-align: left;
+  padding: 40px;
+  border: 3px solid #9A3300;
+  box-shadow: 3px 3px 6px 1px #fce3c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-box > .logo-container- {
+  width: 495px;
+  position: absolute;
+  left: -67px;
+  top: -50px;
+}
+
+
+footer{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+footer li {
+  list-style: none;
+  margin: 5px;
+}
+
+footer li a{
+  width: 15%;
+  color: white;
+  text-decoration: none;
 }
