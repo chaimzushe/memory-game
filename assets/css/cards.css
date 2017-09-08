@@ -28,10 +28,13 @@
 
  /*lshould go into new file*/
  main li {
+   display: flex;
    list-style: none;
    height: 100px;
    width: 100px;
    margin: 10px;
+   justify-content: center;
+   align-items: center
 
 
 
@@ -41,12 +44,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
-
+  justify-content: center;
+  align-items: center;
  }
 .revealed{
 text-align: center;
   color: #e5fffc;
   font-size: 80px;
+  perspective: 300px;
+  animation: animate-y 1s linear;
 }
 
 
