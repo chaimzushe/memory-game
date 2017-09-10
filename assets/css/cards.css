@@ -17,6 +17,7 @@
   display: flex;
   justify-content:center;
   align-items: flex-start;
+
 }
 
 .board-side-boarder-left{
@@ -63,10 +64,12 @@
   text-align: center;
   color: #ce1302;
   font-size: 40px;
+  perspective: 600px;
+  animation: animate-y .1s;
 
 }
 
-#icon-wrapper{
+#icon-wrapper:not(.revealed){
   height: 100px;
   display: flex;
   align-items: center;
@@ -75,6 +78,10 @@
   justify-content: center;
   width: 70%;
   background: white;
+  position: relative;
+  perspective: 600px;
+  animation: animate-y .1s linear;
+  visibility: inherit;
 }
 
 
@@ -86,9 +93,10 @@
    background-position: center center;
    background-size: contain;
    background-repeat: no-repeat;
+   perspective: 600px;
+   animation: animate-y .2s linear;
 
-    perspective: 300px;
-    animation: animate-y 1s linear;
+
  }
 
  .hidden:hover{
