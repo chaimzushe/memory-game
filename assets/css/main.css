@@ -92,6 +92,7 @@ main{
   text-align: center;
   border-radius: 20px;
   padding: 5px;
+  outline-color: none;
 }
 
 #timer-btn{

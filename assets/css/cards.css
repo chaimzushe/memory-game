@@ -53,18 +53,17 @@
    display: flex;
    list-style: none;
    width: 100px;
+   height: 100px;
    margin: 10px;
    justify-content: center;
    align-items: center
 
  }
 .revealed{
-  height: 100px;
   text-align: center;
   color: #e5fffc;
   font-size: 60px;
-  perspective: 300px;
-  animation: animate-y 1s linear;
+
 }
 
 
