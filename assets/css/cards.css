@@ -61,9 +61,21 @@
  }
 .revealed{
   text-align: center;
-  color: #e5fffc;
-  font-size: 60px;
+  color: red;
+  font-size: 50px;
 
+}
+
+#icon-wrapper{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 6px;
+  justify-content: center;
+  width: 70%;
+  color: brown;
+  background: white;
 }
 
 
