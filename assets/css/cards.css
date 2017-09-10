@@ -7,8 +7,14 @@
 
 .board-side-boarder-right{
   width: 10%;
+  margin: 20px;
 
+}
 
+.board-side-boarder-right-wrapper{
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
 }
 
 .board-side-boarder-left{

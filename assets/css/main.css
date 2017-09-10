@@ -45,7 +45,7 @@ main{
   height: 300px;
   margin: 22% auto;
   background-color:black;
-  color: white;
+  color: #dbffdd;
   border-radius: 20px;
   text-align: left;
   padding: 40px;
@@ -73,7 +73,7 @@ main{
 }
 .level-header{
   font-weight: bold;
-  color: white;
+  color: #dbffdd;
   font-size: 18px;
   margin-bottom: 50px;
   border-bottom: 1px solid white;
@@ -83,9 +83,15 @@ main{
 .board-side-boarder-right button{
 
 
-  background-color: inherit;
-  color: white;
+  background-color: #dbffdd;
+  color:brown;
   margin-top: 20px;
+  margin-top: 20px;
+  border: solid;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 #timer-btn{
