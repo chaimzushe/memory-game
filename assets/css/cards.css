@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-
+  justify-content: space-around;
 }
 
 .board-side-boarder-right{
@@ -30,12 +30,12 @@
  /*lshould go into new file*/
 
  main  ul  {
-
+   margin: auto;
    min-height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height:100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   max-width: 600px;
@@ -51,7 +51,6 @@
 
  }
 .revealed{
-  background-color: purple;
   height: 100px;
   text-align: center;
   color: #e5fffc;
