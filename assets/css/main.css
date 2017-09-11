@@ -9,9 +9,14 @@ body{
   background-size: contain;
   background-size: cover;
   background-position: center center;
-
 }
-
+.win{
+  background-image: url('../images/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: center center;
+}
 main{
   margin: 10px;
   justify-content: center;
