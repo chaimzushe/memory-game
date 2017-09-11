@@ -10,6 +10,7 @@ body{
   background-size: cover;
   background-position: center center;
 }
+
 .win{
   background-image: url('../images/giphy.gif');
   background-repeat: no-repeat;
