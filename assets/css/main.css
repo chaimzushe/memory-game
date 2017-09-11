@@ -2,7 +2,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   background-image: url('../images/mahogany1.jpg');
   background-repeat: no-repeat;
@@ -27,6 +27,26 @@ main{
   height: auto;
   width: 100%;
 }
+#main-header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#main-header img{
+  max-height: 100px;
+  width: 300px;
+}
+
+#main-header p{
+  color: #dbffdd;
+  margin-right: 40px;
+  font-size: 9px;
+  font-family: fantasy;
+}
+
 
 
 #modal {
@@ -111,6 +131,9 @@ button:focus{
   margin-top: 70px;
 }
 
+#main-header{
+
+}
 
 
 
