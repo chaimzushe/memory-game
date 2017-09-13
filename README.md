@@ -1,6 +1,7 @@
 
 
 # Memory Puzzle
+
 [Live link](https://chaimzushe.github.io/memory-game/)
 
 ### Background
@@ -14,37 +15,41 @@
 
 ### Libraries and APIs
 
-the app uses javascript with jQuery to manipulate the DOM and HTML5 for layout. CSS3 for styling.
+The game uses JavaScript, jQuery, HTML5, and CSS3.
 
 
 ### Functionality
 
-- animated rendering the cards.
-- animated flipping of the cards.
-- Easy, medium and hard levels. (How many cards are rendered)
-- firework animation for winners of the game.  
+- Animated rendering the cards.
+- Animated flipping of the cards.
+- Easy, medium and hard levels. (how many cards are rendered).
+- Game keeps track of the amount of guesses.
+- Firework animation for winners of the game.  
 
 
 ### Architecture and Technologies
 
-This game was fashioned using mostly 'vanilla' JavaScript, a little jQuery, html, css.
+This game was designed using JavaScript, jQuery, HTML, CSS.
 
 The games structure is Object Oriented. divided as follows:
 
-- Card object. Responsible for:
-  - Maintaining uniq identity (icon, set).
-  - Representational value in the DOM.
+- Card object.
+Responsible for:
+  - Maintaining the cards unique identity (icon, set number).
+  - Maintaining the cards representational class in the DOM.
   - Swapping states from hidden to revealed.
   - Keeping track of the cards 'was matched?' state.  
 
-- Board object. Responsible for:
-  - Creating and shuffling the deck of cards.
+- Board object.
+Responsible for:
+  - Creating the deck of cards.
   - Reseting the cards at the end of the game.
-  - Checking if the game is over (all cards are matched).
+  - Checking if the game is over (all the cards are matched).
 
-- Game object. Responsible for:
-  - Rendering the model, and winning gif, prior and after the game.
-  - Handling the users interaction. (clicking on a card) to check for a match.  
+- Game object.
+Responsible for:
+  - Rendering the model, and winning gif.
+  - Handling user interaction.
 
 
 
