@@ -1,6 +1,7 @@
 
 
 # Memory Puzzle
+[Live link](https://chaimzushe.github.io/memory-game/)
 
 ### Background
 
@@ -16,7 +17,7 @@
 the app uses javascript with jQuery to manipulate the DOM and HTML5 for layout. CSS3 for styling.
 
 
-###Functionality
+### Functionality
 
 - animated rendering the cards.
 - animated flipping of the cards.
@@ -50,4 +51,4 @@ The games structure is Object Oriented. divided as follows:
 ### to come...
   - Highest score.
   - Play against the computer.
-  - Play against a timer. 
+  - Play against a timer.
