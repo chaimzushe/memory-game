@@ -57,8 +57,8 @@
   text-align: center;
   color: #ce1302;
   font-size: 30px;
-  perspective: 600px;
-  animation: animate-y .1s;
+  perspective: 300px;
+  animation: animate-y .2s linear;
 
 }
 
@@ -72,9 +72,8 @@
   width: 70%;
   background: white;
   position: relative;
-  perspective: 600px;
-  animation: animate-y .1s linear;
-  visibility: inherit;
+  perspective: 300px;
+  animation: animate-y .2s linear;
 }
 
 .hidden-load{

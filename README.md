@@ -51,7 +51,27 @@ Responsible for:
   - Rendering the model, and winning gif.
   - Handling user interaction.
 
+``` javascript
 
+processGuess(card){
+  if(this.PrevChosenCard === null){ // this is the first card picked. cant compare to a second
+    this.PrevChosenCard = card;
+  } else {
+    this.attemps++;
+   if(card.isMatch(this.PrevChosenCard)) { // hit a match.
+     this.PrevChosenCard.matched = true;
+      card.matched = true;
+      this.PrevChosenCard = null;
+      if(this.board.gameOver(this.deck)) this.ending();
+    } else {
+      this.processing = true;
+      setTimeout(this.hideCards.bind(this, card) , 1500);
+    }
+
+  }
+}
+
+```
 
 ### to come...
   - Highest score.
