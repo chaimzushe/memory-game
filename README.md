@@ -35,7 +35,7 @@ If a remaining unknown card is chosen randomly, there is a 1/(t−1−n) chance 
 
 There are some exceptions to this rule that apply on the fringe cases, where n = 0 or 1 or towards the end of the game.
 
-###### [See here for more raeding](https://en.wikipedia.org/wiki/Concentration_(game)
+###### [See here for more raeding](https://en.wikipedia.org/wiki/Concentration_(game))
 
 
 
