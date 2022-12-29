@@ -16,6 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "webpack": "^3.11.0"
+    "webpack": "^5.75.0"
   }
 }
